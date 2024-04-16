@@ -1,0 +1,13 @@
+---
+import AppPreview from "./AppPreview.astro";
+import GooglePlayBadge from "./GooglePlayBadge.astro";
+---
+
+<div class="grid justify-center items-center p-6 md:p-10 md:grid-cols-2">
+    <div class="grid gap-2 justify-center items-center">
+        <h1 class="text-5xl font-bold text-center">Ruthless To Do List</h1>
+        <h2 class="text-xl text-center text-dark-3">Master Your Productivity with Intentional Task Management</h2>
+        <div class="grid justify-center items-center"><GooglePlayBadge class="w-[240px]" /></div>
+    </div>
+    <AppPreview class="hidden md:block" />
+</div>
